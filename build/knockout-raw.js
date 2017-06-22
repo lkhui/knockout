@@ -28,4 +28,5 @@ var DEBUG=true;
             referenceScript(buildFolderPath + scriptUrls[i]);
     };
     referenceScript(buildFolderPath + sourcesReferenceFile);
+    
 })();
