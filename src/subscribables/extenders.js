@@ -20,6 +20,7 @@ ko.extenders = {
         });
     },
 
+
     'notify': function(target, notifyWhen) {
         target["equalityComparer"] = notifyWhen == "always"
             ? function() { return false } // Treat all values as not equal
