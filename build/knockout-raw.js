@@ -21,6 +21,7 @@ var DEBUG=true;
     function referenceScript(url) {
         document.write("<script src='" + url + "' type='text/javascript'></script>");
     };
+    
 
     var buildFolderPath = getPathToScriptTagSrc(debugFileName);
     window.knockoutDebugCallback = function (scriptUrls) {
